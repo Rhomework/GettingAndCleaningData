@@ -1,8 +1,8 @@
-= Getting and Cleaning Data -- Final Project
+# Getting and Cleaning Data -- Final Project
 
 These are files for the final project of the "Getting and Cleaning Data" course offered by Coursera.
 
-== Content
+## Content
 - README.md -- a readme file explaining what all the files in this repo do
 - run_analysis.R -- an R file reading in data from a Samsung Galaxy S study and creating a tidy data set
 - tidy_data.txt -- the tidy data set created by run_analysis.R (can also be found on my coursera submission page)
@@ -11,9 +11,9 @@ These are files for the final project of the "Getting and Cleaning Data" course 
 While README.md and CodeBook.md are explanatory files, the content of tidy_data.txt is explained in CodeBook.md. 
 ThisREADME.me file explains how run_analysis.R works, i.e. how tidy_data.txt was created.
 
-== run_analysis.R
+## run_analysis.R
 
-=== Input Files
+### Input Files
 
 run_analysis.R requires some files as input. These are all provided on the coursera course page. Originally, they 
 can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -28,7 +28,7 @@ For run_analysis.R to run, the following files in the mentioned folders are requ
 - features.txt -- a file containing the features that are given as columns in the "X_..." files
 - activity_labels -- a file containing the labels of the activities that are given as IDs in the "y_..." files
 
-=== Code
+### Code
 
 1. run_analysis.R uses one external package, plyr, which is included using "library(plyr)".
 
