@@ -40,7 +40,7 @@ first letters are capitalized and all other letters are given in lower case.
 
     2. "rewrite" is based on ".simpleCap". It takes a string given in the "activity label" format of the data and transforms
 it into a string which is formatted in such a way that it can be used as the label for a variable in the tidy data 
-set.
+set. It also fixes those labels that contain "BodyBody" instead of just "Body" once.
 
 3. The raw data components from the training set are read in as "train_x", "train_y" and "train_subject" from 
 "train/X_train.txt", "train/y_train.txt" and "train/subject_train.txt". They have the dimensions 7352 X 561, 7352 X 1 and 
