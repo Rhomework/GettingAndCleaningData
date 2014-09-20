@@ -25,6 +25,8 @@ library(plyr)
 # study data and transforms it into a nicer format for variables.
 # The general inspiration for this also stems from .simpleCap.
 rewrite <- function(x) {
+    # fix "BodyBody" problem
+    x <- gsub("BodyBody", "Body", x)
     # split activity label into parts
     parts <- strsplit(x, "-")[[1]]
     parts <- c(substring(parts[1], 1, 1),
